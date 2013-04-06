@@ -8,11 +8,11 @@ Prerequisite
 
 How to create report?
 ---------------------
-``make report FROM_DATE=$your start date TO_DATE=$your end date``
+``make report FROM_DATE=YYYYMMDD(your start date) TO_DATE=YYYYMMDD(your end date)``
 
 example.
 
-``make report FROM_DATE=2013-01-01 TO_DATE=2013-03-31``
+``make report FROM_DATE=20130101 TO_DATE=20130331``
 
 open pdf file under _build/latex directory
 
